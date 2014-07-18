@@ -40,6 +40,7 @@
 - On Board AA battery holder
 - 5V boost converter with enable controllable
 - UBlox GPS Power ON Controllable
+- RFM22B Radio enable pin Controllable
 - On board LED
 - 5V/3.3V smd jumpers available for Atmega 328p, i2c and SPI Programming pins
 
