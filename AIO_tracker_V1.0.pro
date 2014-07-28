@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/Balua/Desktop/testealt/testealt/testealt/testealt.brd
+Job           : C:/Users/DÁRIO/Documents/GitHub/AIO_tracker_V1.0/AIO_tracker_V1.0.brd
 
-Start at      : 19:43:28 (17-03-2014)
-End at        : 19:43:48 (17-03-2014)
-Elapsed time  : 00:00:20
+Start at      : 11:04:24 (28-07-2014)
+End at        : 11:04:43 (28-07-2014)
+Elapsed time  : 00:00:19
 
-Signals       :    46   RoutingGrid: 3.93701 mil  Layers: 2
-Connections   :   160   predefined:  134 ( 49 Vias )
+Signals       :    53   RoutingGrid: 3.93701 mil  Layers: 2
+Connections   :   179   predefined:  177 ( 215 Vias )
 
-Router memory :   2112960
+Router memory :   1989120
 
 Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:03  00:00:04  00:00:04  00:00:04  00:00:05
+Time per pass     :  00:00:02  00:00:04  00:00:04  00:00:04  00:00:05
 Number of Ripups  :         0         0         0         0         0
 max. Level        :         0         0         0         0         0
 max. Total        :         0         0         0         0         0
 
-Routed            :        26        26        26        26        26
-Vias              :       110        62        27        15        14
+Routed            :         2         2         2         2         2
+Vias              :        26         8         6         6         6
 Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 96.2% finished. Polygons may have fallen apart.
+Final             : 99.4% finished. Polygons may have fallen apart.
