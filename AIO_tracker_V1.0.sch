@@ -5603,11 +5603,11 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </instance>
 <instance part="SJ2" gate="1" x="-15.24" y="-193.04"/>
 <instance part="SJ4" gate="1" x="-15.24" y="-200.66"/>
-<instance part="R9" gate="G$1" x="7.62" y="-200.66"/>
-<instance part="R10" gate="G$1" x="7.62" y="-210.82"/>
-<instance part="R11" gate="G$1" x="22.86" y="-210.82"/>
-<instance part="R12" gate="G$1" x="-5.08" y="-218.44" rot="R90"/>
-<instance part="GND28" gate="1" x="-5.08" y="-231.14"/>
+<instance part="R9" gate="G$1" x="12.7" y="-200.66" rot="R180"/>
+<instance part="R10" gate="G$1" x="12.7" y="-208.28" rot="R180"/>
+<instance part="R11" gate="G$1" x="27.94" y="-208.28" rot="R180"/>
+<instance part="R12" gate="G$1" x="-2.54" y="-213.36" rot="R270"/>
+<instance part="GND28" gate="1" x="-2.54" y="-226.06"/>
 </instances>
 <busses>
 </busses>
@@ -6039,8 +6039,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="-5.08" y1="-223.52" x2="-5.08" y2="-228.6" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="-2.54" y1="-223.52" x2="-2.54" y2="-218.44" width="0.1524" layer="91"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -6652,28 +6652,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <label x="165.1" y="-63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="SJ4" gate="1" pin="2"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="-10.16" y1="-200.66" x2="-5.08" y2="-200.66" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-200.66" x2="-5.08" y2="-210.82" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="-5.08" y1="-210.82" x2="-5.08" y2="-213.36" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-200.66" x2="-5.08" y2="-200.66" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="-210.82" x2="-5.08" y2="-210.82" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-200.66"/>
-<junction x="-5.08" y="-210.82"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="-210.82" x2="17.78" y2="-210.82" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="MARK" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PC1"/>
@@ -6681,21 +6659,10 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <label x="45.72" y="-5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="-210.82" x2="35.56" y2="-210.82" width="0.1524" layer="91"/>
-<label x="30.48" y="-210.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SPACE" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="ADC6"/>
-<wire x1="5.08" y1="-12.7" x2="-2.54" y2="-12.7" width="0.1524" layer="91"/>
-<label x="0" y="-12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="-200.66" x2="22.86" y2="-200.66" width="0.1524" layer="91"/>
-<label x="17.78" y="-200.66" size="1.778" layer="95"/>
+<wire x1="35.56" y1="-208.28" x2="40.64" y2="-208.28" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="-208.28" x2="33.02" y2="-208.28" width="0.1524" layer="91"/>
+<label x="38.1" y="-208.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TXDHX1NX2" class="0">
@@ -6713,6 +6680,40 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="SJ4" gate="1" pin="1"/>
 <wire x1="-20.32" y1="-200.66" x2="-38.1" y2="-200.66" width="0.1524" layer="91"/>
 <label x="-35.56" y="-200.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SPACE" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="ADC6"/>
+<wire x1="5.08" y1="-12.7" x2="-2.54" y2="-12.7" width="0.1524" layer="91"/>
+<label x="-2.54" y="-12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="-200.66" x2="22.86" y2="-200.66" width="0.1524" layer="91"/>
+<label x="20.32" y="-200.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="SJ4" gate="1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="-10.16" y1="-200.66" x2="-2.54" y2="-200.66" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="-2.54" y1="-200.66" x2="7.62" y2="-200.66" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-200.66" x2="-2.54" y2="-200.66" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-200.66" x2="-2.54" y2="-208.28" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="-2.54" y1="-208.28" x2="7.62" y2="-208.28" width="0.1524" layer="91"/>
+<junction x="-2.54" y="-208.28"/>
+<junction x="-2.54" y="-200.66"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="-208.28" x2="22.86" y2="-208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
