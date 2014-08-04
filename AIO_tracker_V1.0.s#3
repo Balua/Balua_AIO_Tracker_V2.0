@@ -6644,13 +6644,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <label x="45.72" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SPACE" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="ADC6"/>
-<wire x1="5.08" y1="-12.7" x2="-2.54" y2="-12.7" width="0.1524" layer="91"/>
-<label x="0" y="-12.7" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="TXDHX1NX2" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="TXD"/>

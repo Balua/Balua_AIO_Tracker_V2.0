@@ -6707,6 +6707,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="2.54" y1="-210.82" x2="-5.08" y2="-210.82" width="0.1524" layer="91"/>
 <junction x="-5.08" y="-200.66"/>
 <junction x="-5.08" y="-210.82"/>
+<label x="-10.16" y="-200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -6714,6 +6715,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="-210.82" x2="12.7" y2="-210.82" width="0.1524" layer="91"/>
+<label x="12.7" y="-210.82" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

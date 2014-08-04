@@ -6652,23 +6652,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <label x="165.1" y="-63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="SJ4" gate="1" pin="2"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="-10.16" y1="-200.66" x2="-5.08" y2="-200.66" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-200.66" x2="-5.08" y2="-210.82" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-210.82" x2="-5.08" y2="-213.36" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-200.66" x2="-5.08" y2="-200.66" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-210.82" x2="-5.08" y2="-210.82" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-200.66"/>
-<junction x="-5.08" y="-210.82"/>
-<label x="-2.54" y="-200.66" size="1.778" layer="95"/>
-<label x="-2.54" y="-210.82" size="1.778" layer="95"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="MARK" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PC1"/>
@@ -6710,11 +6693,27 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <label x="-35.56" y="-200.66" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="SJ4" gate="1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="-10.16" y1="-200.66" x2="-5.08" y2="-200.66" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="-5.08" y1="-200.66" x2="2.54" y2="-200.66" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-200.66" x2="-5.08" y2="-200.66" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-200.66" x2="-5.08" y2="-210.82" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="-5.08" y1="-210.82" x2="-5.08" y2="-213.36" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-210.82" x2="-5.08" y2="-210.82" width="0.1524" layer="91"/>
+<junction x="-5.08" y="-200.66"/>
+<junction x="-5.08" y="-210.82"/>
+</segment>
+</net>
 <net name="N$18" class="0">
 <segment>
-<wire x1="12.7" y1="-210.82" x2="17.78" y2="-210.82" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="-210.82" x2="12.7" y2="-210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -5470,11 +5470,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="VBATT" library="SparkFun-Connectors" deviceset="M01" device="SMDNS" value="M01SMDNS"/>
 <part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
 <part name="SJ4" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
-<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
-<part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
-<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
-<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -5603,11 +5598,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 </instance>
 <instance part="SJ2" gate="1" x="-15.24" y="-193.04"/>
 <instance part="SJ4" gate="1" x="-15.24" y="-200.66"/>
-<instance part="R12" gate="G$1" x="-5.08" y="-218.44" rot="R90"/>
-<instance part="GND28" gate="1" x="-5.08" y="-231.14"/>
-<instance part="R11" gate="G$1" x="22.86" y="-210.82" rot="R180"/>
-<instance part="R9" gate="G$1" x="7.62" y="-200.66" rot="R180"/>
-<instance part="R10" gate="G$1" x="7.62" y="-210.82" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -6037,11 +6027,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="-48.26" y1="-50.8" x2="-58.42" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="-50.8" x2="-58.42" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="-5.08" y1="-223.52" x2="-5.08" y2="-228.6" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-<pinref part="GND28" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -6658,22 +6643,12 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="40.64" y1="-5.08" x2="55.88" y2="-5.08" width="0.1524" layer="91"/>
 <label x="45.72" y="-5.08" size="1.778" layer="95"/>
 </segment>
-<segment>
-<wire x1="12.7" y1="-200.66" x2="20.32" y2="-200.66" width="0.1524" layer="91"/>
-<label x="20.32" y="-198.12" size="1.778" layer="95" rot="R180"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-</segment>
 </net>
 <net name="SPACE" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="ADC6"/>
 <wire x1="5.08" y1="-12.7" x2="-2.54" y2="-12.7" width="0.1524" layer="91"/>
 <label x="0" y="-12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="35.56" y1="-210.82" x2="27.94" y2="-210.82" width="0.1524" layer="91"/>
-<label x="35.56" y="-208.28" size="1.778" layer="95" rot="R180"/>
-<pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="TXDHX1NX2" class="0">
@@ -6696,26 +6671,9 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <net name="N$17" class="0">
 <segment>
 <pinref part="SJ4" gate="1" pin="2"/>
-<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="-10.16" y1="-200.66" x2="-5.08" y2="-200.66" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="-200.66" x2="2.54" y2="-200.66" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-200.66" x2="-5.08" y2="-200.66" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-200.66" x2="-5.08" y2="-210.82" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="-210.82" x2="-5.08" y2="-213.36" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-210.82" x2="-5.08" y2="-210.82" width="0.1524" layer="91"/>
-<junction x="-5.08" y="-200.66"/>
-<junction x="-5.08" y="-210.82"/>
+<wire x1="-5.08" y1="-200.66" x2="-5.08" y2="-213.36" width="0.1524" layer="91"/>
 <label x="-10.16" y="-200.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="R11" gate="G$1" pin="2"/>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="-210.82" x2="12.7" y2="-210.82" width="0.1524" layer="91"/>
-<label x="12.7" y="-210.82" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

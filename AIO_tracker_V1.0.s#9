@@ -5472,9 +5472,9 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <part name="SJ4" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
-<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -5605,9 +5605,9 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <instance part="SJ4" gate="1" x="-15.24" y="-200.66"/>
 <instance part="R12" gate="G$1" x="-5.08" y="-218.44" rot="R90"/>
 <instance part="GND28" gate="1" x="-5.08" y="-231.14"/>
+<instance part="R11" gate="G$1" x="22.86" y="-210.82" rot="R180"/>
 <instance part="R9" gate="G$1" x="7.62" y="-210.82" rot="R180"/>
 <instance part="R10" gate="G$1" x="7.62" y="-200.66" rot="R180"/>
-<instance part="R11" gate="G$1" x="22.86" y="-210.82" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -6713,8 +6713,8 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <net name="N$18" class="0">
 <segment>
 <wire x1="12.7" y1="-210.82" x2="17.78" y2="-210.82" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
