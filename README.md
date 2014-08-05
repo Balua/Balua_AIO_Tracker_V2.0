@@ -1,6 +1,6 @@
-### AIO_Tracker_V1.0 - Board still in development...
+### AIO_Tracker_V1.0 - Board with finished schematic but with open layout and still to be tested...
 
-#### Updated version of the original tracker found in the Balua_tracker repository with extra features and small correction
+#### Updated version of the original tracker found in the Balua_tracker repository with extra features and small corrections
 
 
 #### Features:
@@ -16,25 +16,26 @@
 - RFM22B ISM Transceiver Module with SMA Antenna
 
 #####GPS
-- Ublox Max 7 GPS with Sarantel antenna with jumpers in the RX/TX line and in the I2C for hardware selectable communication mode
+- Ublox Max 7 GPS with Quad V GPS antenna with jumpers in the RX/TX line and in the I2C for hardware selectable communication mode
 
 #####Sensors
-- One wire temperature sensor - DS18B20
-- Battery Voltage
-- Pressure Sensor - HSCSANN015PA2A3 
+- SMD Onewire temperature sensor - DS18B20
+- Battery Voltage sensing
+- 0-15psi Pressure Sensor SMT mount - HSCSANN015PA2A3
+- 9-axis Motion Tracking MEMS (3-axis gyroscope, 3-axis accelerometer and magnetometer) - MPU-9150 
 
 #####Storage
 - MicroSD Socket
 
 #####Programming
-- AVR SPI Programming pins available
+- SMD AVR SPI Programming pins available
 
 #####External pins
 - I2c Pins with pull-up for expansion available
-- 4 ADC Pins available
 - 2 pins for Software Serial
 - 2 pins for Hardware Serial
-- Power Pins (5V, 3.3V and GND)
+- Power Pins (VBatt, 5V, 3.3V and GND)
+- Power pins for Cutoff system
 
 #####Other
 - On Board AA battery holder
@@ -42,5 +43,4 @@
 - UBlox GPS Power ON Controllable
 - RFM22B Radio enable pin Controllable
 - On board LED
-- 5V/3.3V smd jumpers available for Atmega 328p, i2c and SPI Programming pins
-
+- Cutoff System implemented
