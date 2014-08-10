@@ -5737,20 +5737,30 @@ We've spent an enormous amount of time creating and checking these footprints an
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.254" drill="0.6">
-<clearance class="0" value="0.254"/>
+<class number="0" name="default" width="0.1524" drill="0.4">
+<clearance class="0" value="0.1524"/>
 </class>
-<class number="1" name="bat" width="0.8128" drill="0.6">
-<clearance class="1" value="0.4064"/>
+<class number="1" name="bat" width="0.1524" drill="0.4">
+<clearance class="0" value="0.1524"/>
+<clearance class="1" value="0.1524"/>
 </class>
-<class number="2" name="5V" width="0.3048" drill="0.6">
-<clearance class="2" value="0.3048"/>
+<class number="2" name="5V" width="0.1524" drill="0.4">
+<clearance class="0" value="0.1524"/>
+<clearance class="1" value="0.1524"/>
+<clearance class="2" value="0.1524"/>
 </class>
-<class number="3" name="3.3V" width="0.3048" drill="0.6">
-<clearance class="3" value="0.3048"/>
+<class number="3" name="3.3V" width="0.1524" drill="0.4">
+<clearance class="0" value="0.1524"/>
+<clearance class="1" value="0.1524"/>
+<clearance class="2" value="0.1524"/>
+<clearance class="3" value="0.1524"/>
 </class>
-<class number="4" name="GND" width="0.4064" drill="0.6">
-<clearance class="4" value="0.4064"/>
+<class number="4" name="GND" width="0.1524" drill="0.4">
+<clearance class="0" value="0.1524"/>
+<clearance class="1" value="0.1524"/>
+<clearance class="2" value="0.1524"/>
+<clearance class="3" value="0.1524"/>
+<clearance class="4" value="0.1524"/>
 </class>
 </classes>
 <parts>

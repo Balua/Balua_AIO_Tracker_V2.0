@@ -342,7 +342,6 @@
 
 http://www.radiometrix.com/files/additional/ntx2nrx2.pdf
 Vertical mounted orientation</description>
-<wire x1="-11.43" y1="-3.81" x2="31.75" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="31.75" y1="-3.81" x2="31.75" y2="3.81" width="0.127" layer="21"/>
 <wire x1="31.75" y1="3.81" x2="-11.43" y2="3.81" width="0.127" layer="21"/>
 <wire x1="-11.43" y1="3.81" x2="-11.43" y2="-3.81" width="0.127" layer="21"/>
@@ -353,7 +352,6 @@ Vertical mounted orientation</description>
 <pad name="0V" x="17.78" y="0" drill="0.7" diameter="2.1844"/>
 <pad name="EN" x="12.7" y="0" drill="0.7" diameter="2.1844"/>
 <pad name="VCC" x="15.24" y="0" drill="0.7" diameter="2.1844"/>
-<text x="-8.89" y="-2.54" size="1.27" layer="21">Radiometrix NTX2</text>
 </package>
 <package name="DS1820">
 <wire x1="-0.635" y1="-0.15875" x2="1.74625" y2="-0.15875" width="0.127" layer="21"/>
@@ -5871,14 +5869,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="SJ3" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
 <part name="TX" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="RX" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
-<part name="3.3V" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="M01PTH"/>
-<part name="5V" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="M01PTH"/>
-<part name="GND" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="M01PTH"/>
+<part name="3.3V" library="SparkFun-Connectors" deviceset="M01" device="SMDNS" value="M01SMDNS"/>
+<part name="5V" library="SparkFun-Connectors" deviceset="M01" device="SMDNS" value="M01SMDNS"/>
+<part name="GND" library="SparkFun-Connectors" deviceset="M01" device="SMDNS" value="M01SMDNS"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$2" library="Ava" deviceset="JDGA-REMQV-ANTENNA" device=""/>
 <part name="X1" library="con-coax" deviceset="SMA-" device="142-0701-881/886"/>
-<part name="VBATT" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="M01PTH"/>
+<part name="VBATT" library="SparkFun-Connectors" deviceset="M01" device="SMDNS" value="M01SMDNS"/>
 <part name="U3" library="SparkFun-Sensors" deviceset="MPU-9150" device="QFN-24-NP"/>
 <part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="2.2nF"/>
 <part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -5904,7 +5902,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="TP13" library="testpad" deviceset="TP" device="TP10SQ" value="TPTP10SQ"/>
 <part name="TP14" library="testpad" deviceset="TP" device="TP10SQ" value="TPTP10SQ"/>
 <part name="U$5" library="SparkFun-PowerIC" deviceset="LM2931_FIXED" device=""/>
-<part name="CUTOFF" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="CUTOFF" library="SparkFun-Connectors" deviceset="M02" device="1X02_NO_SILK" value="M021X02_NO_SILK"/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
