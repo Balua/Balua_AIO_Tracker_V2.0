@@ -1,6 +1,6 @@
-### Balua_AIO_Tracker_V1.0 - Board with finished schematic but with open layout and still to be tested...
+### Balua_AIO_Tracker_V2.0 - Board finished for printing, schematic and layout completed but still to be tested...
 
-#### Updated version of the original tracker found in the Balua_tracker repository with extra features and small corrections
+#### Updated version of the original tracker found in the Balua_AIO_Tracker_V1.0 repository with extra features and small corrections
 
 
 #### Features:
@@ -16,26 +16,26 @@
 - RFM22B ISM Transceiver Module with SMA Antenna
 
 #####GPS
-- Ublox Max 7 GPS with Quad V GPS antenna with jumpers in the RX/TX line and in the I2C for hardware selectable communication mode
+- Ublox Max 7 GPS with Quad V GPS antenna with jumpers in the RX/TX line and in the I2C for hardware selectable communication mode (NEW!!!)
 
 #####Sensors
 - SMD Onewire temperature sensor - DS18B20
 - Battery Voltage sensing
 - 0-15psi Pressure Sensor SMT mount - HSCSANN015PA2A3
-- 9-axis Motion Tracking MEMS (3-axis gyroscope, 3-axis accelerometer and magnetometer) - MPU-9150 
+- 9-axis Motion Tracking MEMS (3-axis gyroscope, 3-axis accelerometer and magnetometer) - MPU-9150 (NEW!!!)
 
 #####Storage
 - MicroSD Socket
 
 #####Programming
-- SMD AVR SPI Programming pins available
+- SMD AVR SPI Programming pins available (NEW!!!)
 
 #####External pins
 - I2c Pins with pull-up for expansion available
 - 2 pins for Software Serial
 - 2 pins for Hardware Serial
-- Power Pins (VBatt, 5V, 3.3V and GND)
-- Power pins for Cutoff system
+- Power Pins for external power (VBatt, 5V, 3.3V and GND) (NEW!!!)
+- Power pins for Cutoff system (NEW!!!)
 
 #####Other
 - On Board AA battery holder
@@ -43,4 +43,4 @@
 - UBlox GPS Power ON Controllable
 - RFM22B Radio enable pin Controllable
 - On board LED
-- Cutoff System implemented
+- Cutoff System implemented (NEW!!!)
