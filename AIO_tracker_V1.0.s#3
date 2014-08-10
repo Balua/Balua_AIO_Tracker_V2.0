@@ -4544,24 +4544,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 Johnson Components&lt;br&gt;
 Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="0" y1="5.588" x2="0" y2="-5.588" width="0" layer="20"/>
-<wire x1="-1.55" y1="-4.65" x2="-1.55" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-1.55" y1="-2" x2="-3.7" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-3.7" y1="-2" x2="-4.45" y2="-2.75" width="0.2032" layer="21"/>
-<wire x1="-4.45" y1="-2.75" x2="-8.25" y2="-2.75" width="0.2032" layer="21"/>
-<wire x1="-8.25" y1="-2.75" x2="-8.25" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-8.25" y1="-1.9" x2="-9.425" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-9.425" y1="-1.9" x2="-9.425" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="-9.425" y1="1.9" x2="-8.25" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="-8.25" y1="1.9" x2="-8.25" y2="2.75" width="0.2032" layer="21"/>
-<wire x1="-8.25" y1="2.75" x2="-4.45" y2="2.75" width="0.2032" layer="21"/>
-<wire x1="-4.45" y1="2.75" x2="-3.7" y2="2" width="0.2032" layer="21"/>
-<wire x1="-3.7" y1="2" x2="-1.55" y2="2" width="0.2032" layer="21"/>
-<wire x1="-1.55" y1="2" x2="-1.55" y2="4.65" width="0.2032" layer="21"/>
 <wire x1="-0.1" y1="-3.85" x2="-0.1" y2="3.85" width="0.2032" layer="21"/>
-<wire x1="-1.55" y1="4.65" x2="-0.1" y2="4.65" width="0.2032" layer="21"/>
-<wire x1="-0.1" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="21"/>
-<wire x1="-1.55" y1="4.65" x2="4.65" y2="4.65" width="0.2032" layer="51"/>
-<wire x1="4.65" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="51"/>
 <wire x1="4.65" y1="-4.65" x2="4.65" y2="-3.85" width="0.2032" layer="51"/>
 <wire x1="4.65" y1="-3.85" x2="-0.1" y2="-3.85" width="0.2032" layer="51"/>
 <wire x1="-0.1" y1="3.85" x2="4.65" y2="3.85" width="0.2032" layer="51"/>
@@ -5754,20 +5737,30 @@ We've spent an enormous amount of time creating and checking these footprints an
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.254" drill="0.6">
-<clearance class="0" value="0.254"/>
+<class number="0" name="default" width="0.1524" drill="0.4">
+<clearance class="0" value="0.1524"/>
 </class>
-<class number="1" name="bat" width="0.8128" drill="0.6">
-<clearance class="1" value="0.4064"/>
+<class number="1" name="bat" width="0.1524" drill="0.4">
+<clearance class="0" value="0.1524"/>
+<clearance class="1" value="0.1524"/>
 </class>
-<class number="2" name="5V" width="0.3048" drill="0.6">
-<clearance class="2" value="0.3048"/>
+<class number="2" name="5V" width="0.1524" drill="0.4">
+<clearance class="0" value="0.1524"/>
+<clearance class="1" value="0.1524"/>
+<clearance class="2" value="0.1524"/>
 </class>
-<class number="3" name="3.3V" width="0.3048" drill="0.6">
-<clearance class="3" value="0.3048"/>
+<class number="3" name="3.3V" width="0.1524" drill="0.4">
+<clearance class="0" value="0.1524"/>
+<clearance class="1" value="0.1524"/>
+<clearance class="2" value="0.1524"/>
+<clearance class="3" value="0.1524"/>
 </class>
-<class number="4" name="GND" width="0.4064" drill="0.6">
-<clearance class="4" value="0.4064"/>
+<class number="4" name="GND" width="0.1524" drill="0.4">
+<clearance class="0" value="0.1524"/>
+<clearance class="1" value="0.1524"/>
+<clearance class="2" value="0.1524"/>
+<clearance class="3" value="0.1524"/>
+<clearance class="4" value="0.1524"/>
 </class>
 </classes>
 <parts>
