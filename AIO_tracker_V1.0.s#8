@@ -5771,7 +5771,19 @@ We've spent an enormous amount of time creating and checking these footprints an
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.254" drill="0.6">
-<clearance class="0" value="0.3048"/>
+<clearance class="0" value="0.254"/>
+</class>
+<class number="1" name="bat" width="0.8128" drill="0.6">
+<clearance class="1" value="0.4064"/>
+</class>
+<class number="2" name="5V" width="0.3048" drill="0.6">
+<clearance class="2" value="0.3048"/>
+</class>
+<class number="3" name="3.3V" width="0.3048" drill="0.6">
+<clearance class="3" value="0.3048"/>
+</class>
+<class number="4" name="GND" width="0.4064" drill="0.6">
+<clearance class="4" value="0.4064"/>
 </class>
 </classes>
 <parts>
@@ -6039,7 +6051,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <busses>
 </busses>
 <nets>
-<net name="3.3V" class="0">
+<net name="3.3V" class="3">
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
@@ -6241,7 +6253,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="45.72" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="4">
 <segment>
 <pinref part="J1" gate="G$1" pin="6"/>
 <wire x1="-72.39" y1="2.54" x2="-66.04" y2="2.54" width="0.1524" layer="91"/>
@@ -6745,7 +6757,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-12.7" y1="-38.1" x2="-17.78" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VBATT" class="0">
+<net name="VBATT" class="1">
 <segment>
 <wire x1="-30.48" y1="66.04" x2="-22.86" y2="66.04" width="0.1524" layer="91"/>
 <label x="-27.94" y="66.04" size="1.778" layer="95"/>
@@ -6885,7 +6897,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="U$4" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="5V" class="0">
+<net name="5V" class="2">
 <segment>
 <wire x1="99.06" y1="71.12" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VOUT"/>
@@ -7163,6 +7175,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="U1" gate="A" pin="PC1"/>
 <wire x1="40.64" y1="-5.08" x2="55.88" y2="-5.08" width="0.1524" layer="91"/>
 <label x="45.72" y="-5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<wire x1="-106.68" y1="25.4" x2="-81.28" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

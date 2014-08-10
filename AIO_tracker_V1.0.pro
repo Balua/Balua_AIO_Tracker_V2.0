@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/DÁRIO/Documents/GitHub/AIO_tracker_V1.0/AIO_tracker_V1.0.brd
 
-Start at      : 00:46:35 (07-08-2014)
-End at        : 00:50:08 (07-08-2014)
-Elapsed time  : 00:03:33
+Start at      : 16:59:51 (10-08-2014)
+End at        : 17:20:48 (10-08-2014)
+Elapsed time  : 00:20:57
 
-Signals       :    54   RoutingGrid: 0.984252 mil  Layers: 2
-Connections   :   191   predefined:  189 ( 193 Vias )
+Signals       :    55   RoutingGrid: 0.984252 mil  Layers: 2
+Connections   :   190   predefined:  182 ( 221 Vias )
 
-Router memory :   24870240
+Router memory :   21573600
 
 Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:14  00:00:47  00:00:55  00:00:46  00:00:51
-Number of Ripups  :         0         0         0         0         0
-max. Level        :         0         0         0         0         0
-max. Total        :         0         0         0         0         0
+Time per pass     :  00:18:35  00:00:34  00:00:34  00:00:35  00:00:39
+Number of Ripups  :       100         0         0         0         0
+max. Level        :         1         0         0         0         0
+max. Total        :         5         0         0         0         0
 
-Routed            :         2         2         2         2         2
-Vias              :        10         8         8         8         8
-Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :         5         5         5         5         5
+Vias              :         6         5         5         5         5
+Resolution        :    98.4 %    98.4 %    98.4 %    98.4 %    98.4 %
 
-Final             : 98.4% finished. Polygons may have fallen apart.
+Final             : 97.9% finished. Polygons may have fallen apart.

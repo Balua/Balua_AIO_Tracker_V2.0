@@ -5851,7 +5851,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4.7k"/>
-<part name="I2C" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
+<part name="I2C" library="SparkFun-Connectors" deviceset="M05" device="NO_SILK"/>
 <part name="SUPPLY20" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY21" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -7177,7 +7177,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="45.72" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="N$8" class="4">
 <segment>
 <wire x1="-106.68" y1="25.4" x2="-81.28" y2="25.4" width="0.1524" layer="91"/>
 </segment>
