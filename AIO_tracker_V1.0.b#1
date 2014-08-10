@@ -1319,8 +1319,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C2" library="SparkFun-Passives" package="0603-CAP" value="18pF" x="8.4" y="22.2" smashed="yes">
 <attribute name="NAME" x="8.261" y="23.462" size="0.4064" layer="25" font="vector" ratio="25"/>
 </element>
-<element name="C3" library="SparkFun-Passives" package="0603-CAP" value="18pF" x="8.4" y="14.9" smashed="yes">
-<attribute name="NAME" x="6.638" y="14.761" size="0.4064" layer="25" font="vector" ratio="25" rot="R90"/>
+<element name="C3" library="SparkFun-Passives" package="0603-CAP" value="18pF" x="8.4" y="14.8" smashed="yes">
+<attribute name="NAME" x="6.638" y="14.661" size="0.4064" layer="25" font="vector" ratio="25" rot="R90"/>
 </element>
 <element name="U$4" library="Ava" package="COILCRAFT_MSS5131" value="2.2uH" x="23.75" y="3.78" smashed="yes" rot="R270"/>
 <element name="U$6" library="Ava" package="COILCRAFT_MSS5131" value="2.2uH" x="33.4" y="3.78" smashed="yes" rot="R270"/>
@@ -2162,7 +2162,7 @@ Please make sure your boards conform to these design rules.</description>
 <via x="1.89" y="35.8865" extent="1-16" drill="0.5" diameter="0.4064"/>
 <via x="3.79" y="37.7865" extent="1-16" drill="0.5" diameter="0.4064"/>
 <wire x1="7.5" y1="15.15" x2="7.5" y2="14.95" width="0.4064" layer="1"/>
-<wire x1="7.5" y1="14.95" x2="7.55" y2="14.9" width="0.4064" layer="1"/>
+<wire x1="7.5" y1="14.95" x2="7.55" y2="14.8" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U1" pad="20"/>
@@ -2512,7 +2512,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="9.2" y1="16.65" x2="10.65" y2="18.1" width="0.254" layer="1"/>
 <wire x1="13.5" y1="18.1" x2="13.5182" y2="18.146" width="0.254" layer="1"/>
 <wire x1="9.2" y1="16.65" x2="9.1" y2="16.6" width="0.254" layer="1"/>
-<wire x1="9.25" y1="14.9" x2="9.1" y2="15.05" width="0.254" layer="1"/>
+<wire x1="9.25" y1="14.8" x2="9.1" y2="15.05" width="0.254" layer="1"/>
 <wire x1="9.1" y1="15.05" x2="9.1" y2="16.6" width="0.254" layer="1"/>
 </signal>
 <signal name="N$21">
@@ -3101,6 +3101,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="TP14" pad="TP"/>
 <contactref element="TP13" pad="TP"/>
 <wire x1="-1.515" y1="37.54" x2="-2.531" y2="37.54" width="0.4064" layer="16"/>
+</signal>
+<signal name="N$8">
 </signal>
 </signals>
 <errors>
