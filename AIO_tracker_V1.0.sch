@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -126,8 +126,8 @@
 <libraries>
 <library name="Ava">
 <packages>
-<package name="UBLOX_MAX-6">
-<description>uBlox MAX-6</description>
+<package name="UBLOX_MAX">
+<description>uBlox MAX</description>
 <smd name="11_RF_IN" x="-4.55" y="3.25" dx="1.8" dy="0.8" layer="1"/>
 <smd name="12_GND" x="-4.55" y="2.15" dx="1.8" dy="0.8" layer="1"/>
 <smd name="13_ANTON" x="-4.55" y="1.05" dx="1.8" dy="0.8" layer="1"/>
@@ -152,9 +152,8 @@
 <wire x1="-4.65" y1="4.95" x2="5.05" y2="4.95" width="0.1" layer="21"/>
 <wire x1="5.05" y1="4.95" x2="5.05" y2="4.8" width="0.1" layer="21"/>
 <wire x1="-4.65" y1="4.95" x2="-4.65" y2="4.8" width="0.1" layer="21"/>
-<text x="3.2" y="-3.9" size="0.6096" layer="21" rot="R90">ublox</text>
-<circle x="2.85" y="-3.95" radius="0.4031125" width="0.127" layer="21"/>
-<text x="0.35" y="-1.4" size="0.6096" layer="21" rot="R90">MAX-6</text>
+<text x="3.35875" y="-3.10625" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">ublox</text>
+<circle x="2.85" y="-3.95" radius="0.6" width="0" layer="21"/>
 </package>
 <package name="QFP80P900X900X120-32N">
 <wire x1="-1.1938" y1="5.3086" x2="-1.1938" y2="6.3246" width="0.1524" layer="21"/>
@@ -555,7 +554,7 @@ JDGA PD001</description>
 </package>
 </packages>
 <symbols>
-<symbol name="UBLOX_MAX-6">
+<symbol name="UBLOX_MAX">
 <pin name="10_GND" x="-22.86" y="15.24" visible="pin" length="middle" direction="pwr"/>
 <pin name="11_RF_IN" x="-22.86" y="10.16" visible="pin" length="middle"/>
 <pin name="12_GND" x="-22.86" y="5.08" visible="pin" length="middle" direction="pwr"/>
@@ -705,13 +704,13 @@ JDGA PD001</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="UBLOX_MAX-6">
-<description>UBLOX MAX-6</description>
+<deviceset name="UBLOX_MAX">
+<description>UBLOX MAX</description>
 <gates>
-<gate name="G$1" symbol="UBLOX_MAX-6" x="-2.54" y="7.62"/>
+<gate name="G$1" symbol="UBLOX_MAX" x="-2.54" y="7.62"/>
 </gates>
 <devices>
-<device name="" package="UBLOX_MAX-6">
+<device name="" package="UBLOX_MAX">
 <connects>
 <connect gate="G$1" pin="10_GND" pad="10_GND"/>
 <connect gate="G$1" pin="11_RF_IN" pad="11_RF_IN"/>
@@ -5737,34 +5736,34 @@ We've spent an enormous amount of time creating and checking these footprints an
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.1524" drill="0.4">
-<clearance class="0" value="0.1524"/>
+<class number="0" name="default" width="0.254" drill="0.4">
+<clearance class="0" value="0.254"/>
 </class>
-<class number="1" name="bat" width="0.1524" drill="0.4">
-<clearance class="0" value="0.1524"/>
-<clearance class="1" value="0.1524"/>
+<class number="1" name="bat" width="0.254" drill="0.4">
+<clearance class="0" value="0.254"/>
+<clearance class="1" value="0.254"/>
 </class>
-<class number="2" name="5V" width="0.1524" drill="0.4">
-<clearance class="0" value="0.1524"/>
-<clearance class="1" value="0.1524"/>
-<clearance class="2" value="0.1524"/>
+<class number="2" name="5V" width="0.254" drill="0.4">
+<clearance class="0" value="0.254"/>
+<clearance class="1" value="0.254"/>
+<clearance class="2" value="0.254"/>
 </class>
-<class number="3" name="3.3V" width="0.1524" drill="0.4">
-<clearance class="0" value="0.1524"/>
-<clearance class="1" value="0.1524"/>
-<clearance class="2" value="0.1524"/>
-<clearance class="3" value="0.1524"/>
+<class number="3" name="3.3V" width="0.254" drill="0.4">
+<clearance class="0" value="0.254"/>
+<clearance class="1" value="0.254"/>
+<clearance class="2" value="0.254"/>
+<clearance class="3" value="0.254"/>
 </class>
-<class number="4" name="GND" width="0.1524" drill="0.4">
-<clearance class="0" value="0.1524"/>
-<clearance class="1" value="0.1524"/>
-<clearance class="2" value="0.1524"/>
-<clearance class="3" value="0.1524"/>
-<clearance class="4" value="0.1524"/>
+<class number="4" name="GND" width="0.254" drill="0.4">
+<clearance class="0" value="0.254"/>
+<clearance class="1" value="0.254"/>
+<clearance class="2" value="0.254"/>
+<clearance class="3" value="0.254"/>
+<clearance class="4" value="0.254"/>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="Ava" deviceset="UBLOX_MAX-6" device=""/>
+<part name="U$1" library="Ava" deviceset="UBLOX_MAX" device=""/>
 <part name="U1" library="Ava" deviceset="ATMEGA328P-AU" device="" value=""/>
 <part name="U$3" library="Ava" deviceset="NTX2-VERTICAL" device=""/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k"/>
