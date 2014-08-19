@@ -2093,9 +2093,6 @@ Please make sure your boards conform to these design rules.</description>
 <via x="37.5" y="26.4" extent="1-16" drill="0.5" diameter="0.4064"/>
 <via x="37.5" y="29" extent="1-16" drill="0.5" diameter="0.4064"/>
 <via x="2.59" y="31.185" extent="1-16" drill="0.5" diameter="0.4064"/>
-<wire x1="-7.5" y1="-6.7" x2="-6.3" y2="-6.7" width="0.254" layer="1"/>
-<wire x1="-6.3" y1="-6.7" x2="-6.315" y2="-6.715" width="0.254" layer="1"/>
-<wire x1="-6.315" y1="-6.715" x2="-8.885" y2="-6.715" width="0.254" layer="1"/>
 <via x="30.59" y="12.785" extent="1-16" drill="0.5" diameter="0.4064"/>
 <via x="31.1" y="23.8" extent="1-16" drill="0.5" diameter="0.8128"/>
 <via x="38.5" y="32.1" extent="1-16" drill="0.5" diameter="0.4064"/>
