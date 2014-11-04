@@ -142,6 +142,22 @@
 <text x="23.6" y="-13" size="1.4224" layer="26" font="vector" ratio="16" distance="0" rot="SMR0">BALUA.ORG</text>
 <text x="22.2" y="-14.5" size="1.016" layer="25" font="vector" ratio="25"> V2.0</text>
 <text x="15.1" y="-14.5" size="1.016" layer="26" font="vector" ratio="25" rot="MR0"> V2.0</text>
+<rectangle x1="-3.13" y1="36.94" x2="-0.92" y2="38.14" layer="32"/>
+<rectangle x1="-3.13" y1="34.4" x2="-0.91" y2="35.6" layer="32"/>
+<rectangle x1="-3.13" y1="31.86" x2="-0.91" y2="33.06" layer="32"/>
+<rectangle x1="-3.13" y1="29.32" x2="-0.91" y2="30.52" layer="32"/>
+<rectangle x1="8.35" y1="29.32" x2="10.57" y2="30.52" layer="32"/>
+<rectangle x1="8.35" y1="31.86" x2="10.57" y2="33.06" layer="32"/>
+<rectangle x1="8.35" y1="34.4" x2="10.57" y2="35.6" layer="32"/>
+<rectangle x1="8.35" y1="36.94" x2="10.57" y2="38.14" layer="32"/>
+<circle x="45" y="36" radius="1.25" width="0" layer="31"/>
+<circle x="-5" y="36" radius="1.25" width="0" layer="31"/>
+<circle x="5" y="-14" radius="1.25" width="0" layer="31"/>
+<circle x="45" y="-14" radius="1.25" width="0" layer="31"/>
+<circle x="45" y="-14" radius="1.25" width="0" layer="32"/>
+<circle x="-5" y="36" radius="1.25" width="0" layer="32"/>
+<circle x="45" y="36" radius="1.25" width="0" layer="32"/>
+<circle x="5" y="-14" radius="1.25" width="0" layer="32"/>
 </plain>
 <libraries>
 <library name="Ava">
@@ -1392,7 +1408,6 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="TP12" library="testpad" package="TP10SQ" value="TPTP10SQ" x="-2.531" y="29.92" smashed="yes" rot="MR180">
 <attribute name="TP_SIGNAL_NAME" value="" x="-2.531" y="31.825" size="1" layer="38" rot="MR180"/>
-<attribute name="VALUE" x="-3.039" y="30.555" size="0.0254" layer="28" rot="MR180"/>
 </element>
 <element name="TP15" library="testpad" package="TP10SQ" value="TPTP10SQ" x="-1.515" y="32.46" smashed="yes" rot="MR180">
 <attribute name="TP_SIGNAL_NAME" value="" x="-1.515" y="34.365" size="1" layer="38" rot="MR180"/>

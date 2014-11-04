@@ -6054,8 +6054,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="TP12" library="testpad" deviceset="TP" device="TP10SQ" value="TPTP10SQ"/>
 <part name="TP15" library="testpad" deviceset="TP" device="TP10SQ" value="TPTP10SQ"/>
 <part name="TP16" library="testpad" deviceset="TP" device="TP10SQ" value="TPTP10SQ"/>
-<part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="TP9" library="testpad" deviceset="TP" device="TP10SQ" value="TPTP10SQ"/>
 <part name="TP10" library="testpad" deviceset="TP" device="TP10SQ" value="TPTP10SQ"/>
 <part name="TP13" library="testpad" deviceset="TP" device="TP10SQ" value="TPTP10SQ"/>
@@ -6064,6 +6062,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="CUT" library="SparkFun-Connectors" deviceset="M02" device="1X02_NO_SILK" value="M021X02_NO_SILK"/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="ON----OFF" library="SparkFun-Passives" deviceset="SOLDERJUMPER_2WAY-OLD" device="T"/>
+<part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6229,8 +6229,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="TP12" gate="G$1" x="271.78" y="-154.94"/>
 <instance part="TP15" gate="G$1" x="261.62" y="-165.1"/>
 <instance part="TP16" gate="G$1" x="271.78" y="-165.1"/>
-<instance part="SUPPLY5" gate="G$1" x="256.54" y="-137.16"/>
-<instance part="GND30" gate="1" x="228.6" y="-139.7"/>
 <instance part="TP9" gate="G$1" x="236.22" y="-154.94"/>
 <instance part="TP10" gate="G$1" x="243.84" y="-154.94"/>
 <instance part="TP13" gate="G$1" x="236.22" y="-165.1"/>
@@ -6239,6 +6237,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="CUT" gate="G$1" x="238.76" y="-68.58"/>
 <instance part="GND26" gate="1" x="266.7" y="-71.12"/>
 <instance part="ON----OFF" gate="G$1" x="-30.48" y="-139.7" rot="R180"/>
+<instance part="GND30" gate="1" x="266.7" y="-149.86"/>
+<instance part="SUPPLY6" gate="G$1" x="226.06" y="-144.78"/>
 </instances>
 <busses>
 </busses>
@@ -6364,13 +6364,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="157.48" y="-137.16"/>
 </segment>
 <segment>
-<pinref part="TP4" gate="G$1" pin="TP"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
-<wire x1="271.78" y1="-137.16" x2="264.16" y2="-137.16" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="-137.16" x2="256.54" y2="-137.16" width="0.1524" layer="91"/>
-<label x="256.54" y="-139.7" size="1.778" layer="95"/>
-<pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
-<junction x="264.16" y="-137.16"/>
+<pinref part="TP6" gate="G$1" pin="TP"/>
+<pinref part="TP5" gate="G$1" pin="TP"/>
+<wire x1="243.84" y1="-147.32" x2="236.22" y2="-147.32" width="0.1524" layer="91"/>
+<pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
+<wire x1="236.22" y1="-147.32" x2="226.06" y2="-147.32" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="-147.32" x2="226.06" y2="-144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -6743,19 +6742,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="GND28" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="TP2" gate="G$1" pin="TP"/>
-<pinref part="TP1" gate="G$1" pin="TP"/>
-<wire x1="243.84" y1="-137.16" x2="236.22" y2="-137.16" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="-137.16" x2="228.6" y2="-137.16" width="0.1524" layer="91"/>
-<label x="228.6" y="-137.16" size="1.778" layer="95"/>
-<pinref part="GND30" gate="1" pin="GND"/>
-<junction x="236.22" y="-137.16"/>
-</segment>
-<segment>
 <pinref part="CUT" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="-68.58" x2="266.7" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="GND26" gate="1" pin="GND"/>
 <label x="259.08" y="-68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TP8" gate="G$1" pin="TP"/>
+<pinref part="TP7" gate="G$1" pin="TP"/>
+<wire x1="271.78" y1="-147.32" x2="266.7" y2="-147.32" width="0.1524" layer="91"/>
+<pinref part="GND30" gate="1" pin="GND"/>
+<wire x1="266.7" y1="-147.32" x2="264.16" y2="-147.32" width="0.1524" layer="91"/>
+<junction x="266.7" y="-147.32"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -6827,12 +6825,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="200.66" y="-137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TP6" gate="G$1" pin="TP"/>
-<pinref part="TP5" gate="G$1" pin="TP"/>
-<wire x1="243.84" y1="-147.32" x2="236.22" y2="-147.32" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="-147.32" x2="231.14" y2="-147.32" width="0.1524" layer="91"/>
-<label x="226.06" y="-147.32" size="1.778" layer="95"/>
-<junction x="236.22" y="-147.32"/>
+<pinref part="TP4" gate="G$1" pin="TP"/>
+<pinref part="TP3" gate="G$1" pin="TP"/>
+<wire x1="271.78" y1="-137.16" x2="264.16" y2="-137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -6858,12 +6853,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="203.2" y="-139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TP8" gate="G$1" pin="TP"/>
-<pinref part="TP7" gate="G$1" pin="TP"/>
-<wire x1="271.78" y1="-147.32" x2="264.16" y2="-147.32" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="-147.32" x2="256.54" y2="-147.32" width="0.1524" layer="91"/>
-<label x="256.54" y="-147.32" size="1.778" layer="95"/>
-<junction x="264.16" y="-147.32"/>
+<pinref part="TP2" gate="G$1" pin="TP"/>
+<pinref part="TP1" gate="G$1" pin="TP"/>
+<wire x1="243.84" y1="-137.16" x2="236.22" y2="-137.16" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-137.16" x2="228.6" y2="-137.16" width="0.1524" layer="91"/>
+<label x="228.6" y="-137.16" size="1.778" layer="95"/>
+<junction x="236.22" y="-137.16"/>
 </segment>
 </net>
 <net name="UBLOX_TXD" class="0">

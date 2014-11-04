@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -142,6 +142,14 @@
 <text x="23.6" y="-13" size="1.4224" layer="26" font="vector" ratio="16" distance="0" rot="SMR0">BALUA.ORG</text>
 <text x="22.2" y="-14.5" size="1.016" layer="25" font="vector" ratio="25"> V2.0</text>
 <text x="15.1" y="-14.5" size="1.016" layer="26" font="vector" ratio="25" rot="MR0"> V2.0</text>
+<rectangle x1="-3.13" y1="36.94" x2="-0.92" y2="38.14" layer="32"/>
+<rectangle x1="-3.13" y1="34.4" x2="-0.91" y2="35.6" layer="32"/>
+<rectangle x1="-3.13" y1="31.86" x2="-0.91" y2="33.06" layer="32"/>
+<rectangle x1="-3.13" y1="29.32" x2="-0.91" y2="30.52" layer="32"/>
+<rectangle x1="8.35" y1="29.32" x2="10.57" y2="30.52" layer="32"/>
+<rectangle x1="8.35" y1="31.86" x2="10.57" y2="33.06" layer="32"/>
+<rectangle x1="8.35" y1="34.4" x2="10.57" y2="35.6" layer="32"/>
+<rectangle x1="8.35" y1="36.94" x2="10.57" y2="38.14" layer="32"/>
 </plain>
 <libraries>
 <library name="Ava">
@@ -1392,7 +1400,6 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="TP12" library="testpad" package="TP10SQ" value="TPTP10SQ" x="-2.531" y="29.92" smashed="yes" rot="MR180">
 <attribute name="TP_SIGNAL_NAME" value="" x="-2.531" y="31.825" size="1" layer="38" rot="MR180"/>
-<attribute name="VALUE" x="-3.039" y="30.555" size="0.0254" layer="28" rot="MR180"/>
 </element>
 <element name="TP15" library="testpad" package="TP10SQ" value="TPTP10SQ" x="-1.515" y="32.46" smashed="yes" rot="MR180">
 <attribute name="TP_SIGNAL_NAME" value="" x="-1.515" y="34.365" size="1" layer="38" rot="MR180"/>
@@ -2093,9 +2100,6 @@ Please make sure your boards conform to these design rules.</description>
 <via x="37.5" y="26.4" extent="1-16" drill="0.5" diameter="0.4064"/>
 <via x="37.5" y="29" extent="1-16" drill="0.5" diameter="0.4064"/>
 <via x="2.59" y="31.185" extent="1-16" drill="0.5" diameter="0.4064"/>
-<wire x1="-7.5" y1="-6.7" x2="-6.3" y2="-6.7" width="0.254" layer="1"/>
-<wire x1="-6.3" y1="-6.7" x2="-6.315" y2="-6.715" width="0.254" layer="1"/>
-<wire x1="-6.315" y1="-6.715" x2="-8.885" y2="-6.715" width="0.254" layer="1"/>
 <via x="30.59" y="12.785" extent="1-16" drill="0.5" diameter="0.4064"/>
 <via x="31.1" y="23.8" extent="1-16" drill="0.5" diameter="0.8128"/>
 <via x="38.5" y="32.1" extent="1-16" drill="0.5" diameter="0.4064"/>
